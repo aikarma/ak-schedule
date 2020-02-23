@@ -1,0 +1,29 @@
+{
+  "name": "ak-schedule",
+  "version": "0.0.1",
+  "description": "aikarma node schedule",
+  "main": "./lib/index.js",
+  "author": {
+    "name": "aikarma"
+  },
+  "scripts": {
+    "auto build": "tsc"
+  },
+  "keywords": [
+    "aikarma",
+    "schedule",
+    "cron",
+    "decorators",
+    "task"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "cron": "^1.8.2",
+    "source-map-support": "^0.5.16"
+  },
+  "devDependencies": {
+    "@types/cron": "^1.7.1",
+    "@types/reflect-metadata": "^0.1.0"
+  }
+}
