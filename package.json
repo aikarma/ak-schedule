@@ -7,7 +7,7 @@
     "name": "aikarma"
   },
   "scripts": {
-    "auto build": "tsc"
+    "build": "tsc"
   },
   "keywords": [
     "aikarma",
@@ -16,10 +16,19 @@
     "decorators",
     "task"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aikarma/ak-schedule"
+  },
+  "bugs": {
+    "url": "https://github.com/aikarma/ak-schedule/issues"
+  },
+  "homepage": "https://github.com/aikarma/ak-schedule",
   "license": "MIT",
   "dependencies": {
     "ansi-colors": "^4.1.1",
     "cron": "^1.8.2",
+    "reflect-metadata": "^0.1.13",
     "source-map-support": "^0.5.16"
   },
   "devDependencies": {
