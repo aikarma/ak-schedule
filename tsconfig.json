@@ -11,7 +11,7 @@
     "emitDecoratorMetadata": true,
     "declaration": true,
     "allowSyntheticDefaultImports": true,
-    "outDir": "./lib",
+    "outDir": "./dist",
     "watch": true,
     "types": [
       "reflect-metadata"

@@ -1,12 +1,15 @@
 {
   "name": "ak-schedule",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "aikarma node schedule",
-  "main": "./lib/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "author": {
-    "name": "aikarma"
+    "name": "aikarma",
+    "url": "https://www.aikarma.com"
   },
   "scripts": {
+    "dist": "npm run clean && tsc",
     "build": "tsc"
   },
   "keywords": [
