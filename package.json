@@ -1,6 +1,6 @@
 {
   "name": "ak-schedule",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "aikarma node schedule",
   "main": "./lib/index.js",
   "author": {
